@@ -7,7 +7,7 @@ const getGCD = (firstNumber, secondNumber) => {
     return getGCD(secondNumber, firstNumber % secondNumber);
   }
   return firstNumber;
-}
+};
 
 export const gameData = () => {
   const firstNumber = randomGenerator(1, 50);

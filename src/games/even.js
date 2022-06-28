@@ -6,6 +6,6 @@ const isEven = (number) => number % 2 === 0;
 
 export const gameData = () => {
   const randomNumber = randomGenerator(1, 100);
-  const rightAnswer = isEven(randomNumber) ? 'yes' : 'no';
-  return [randomNumber, rightAnswer];
+  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
+  return [randomNumber, correctAnswer];
 };
