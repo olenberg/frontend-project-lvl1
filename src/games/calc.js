@@ -1,3 +1,4 @@
+import startGame from '../index.js';
 import randomGenerator from '../utilities.js';
 
 export const gameDescription = 'What is the result of the expression?';
@@ -15,3 +16,7 @@ export const gameData = () => {
   const question = `${firstNumber} ${operationSymbol} ${secondNumber}`;
   return [question, correctAnswer.toString()];
 };
+
+export default function startCalc() {
+  startGame(gameDescription, gameData);
+}

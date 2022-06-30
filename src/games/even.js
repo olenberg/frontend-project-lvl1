@@ -1,3 +1,4 @@
+import startGame from '../index.js';
 import randomGenerator from '../utilities.js';
 
 export const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -9,3 +10,7 @@ export const gameData = () => {
   const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
   return [randomNumber, correctAnswer];
 };
+
+export default function startEven() {
+  startGame(gameDescription, gameData);
+}
