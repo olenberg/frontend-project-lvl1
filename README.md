@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/olenberg/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/olenberg/frontend-project-lvl1/actions)
 ---
 ### Linter status:
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2c6d6e3653134879a770/maintainability)](https://codeclimate.com/github/olenberg/frontend-project-lvl1/maintainability)
 ---
 ### Description
 ---
