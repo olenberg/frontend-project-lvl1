@@ -22,7 +22,7 @@ Brain Games is a set of five console games based on popular mobile brain trainin
 ### Installing
 
 1. Clone repo:
-> https://github.com/olenberg/frontend-project-lvl1
+> git clone https://github.com/olenberg/frontend-project-lvl1
 2. Change directory:
 > cd frontend-project-lvl1
 3. Install packages
