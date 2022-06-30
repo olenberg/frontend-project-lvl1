@@ -20,10 +20,12 @@ Brain Games is a set of five console games based on popular mobile brain trainin
 > Definition of a prime number.
 ---
 ### Installing
+```
 1. git clone https://github.com/olenberg/frontend-project-lvl1
 2. cd frontend-project-lvl1
 3. npm ci
 4. npm link
+```
 ---
 ### Demonstration videos
 ---
