@@ -18,7 +18,16 @@ Brain Games is a set of five console games based on popular mobile brain trainin
 > Search for missing numbers in a sequence of numbers.
 5. Brain-prime
 > Definition of a prime number.
+---
+### Installing
 
+1. Clone repo:
+> https://github.com/olenberg/frontend-project-lvl1
+2. Change directory:
+> cd frontend-project-lvl1
+3. Install packages
+> install
+---
 ### Demonstration videos
 ---
 ### 1. Brain-even
