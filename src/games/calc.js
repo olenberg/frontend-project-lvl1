@@ -8,7 +8,7 @@ const subtraction = (firstNumber, secondNumber) => [firstNumber - secondNumber, 
 const multiplication = (firstNumber, secondNumber) => [firstNumber * secondNumber, '*'];
 const operations = [summation, subtraction, multiplication];
 
-export const gameData = () => {
+export const getRoundData = () => {
   const expression = operations[getRandomNumber(0, operations.length - 1)];
   const firstNumber = getRandomNumber(1, 10);
   const secondNumber = getRandomNumber(1, 10);
@@ -18,5 +18,5 @@ export const gameData = () => {
 };
 
 export default function startCalc() {
-  startGame(gameDescription, gameData);
+  startGame(gameDescription, getRoundData);
 }

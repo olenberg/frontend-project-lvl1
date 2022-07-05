@@ -5,12 +5,12 @@ export const gameDescription = 'Answer "yes" if the number is even, otherwise an
 
 const isEven = (number) => number % 2 === 0;
 
-export const gameData = () => {
+export const getRoundData = () => {
   const randomNumber = getRandomNumber(1, 100);
   const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
   return [randomNumber, correctAnswer];
 };
 
 export default function startEven() {
-  startGame(gameDescription, gameData);
+  startGame(gameDescription, getRoundData);
 }

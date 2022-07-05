@@ -16,12 +16,12 @@ function isPrime(number) {
   return true;
 }
 
-export const gameData = () => {
+export const getRoundData = () => {
   const randomNumber = getRandomNumber(2, 100);
   const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
   return [randomNumber, correctAnswer];
 };
 
 export default function startPrime() {
-  startGame(gameDescription, gameData);
+  startGame(gameDescription, getRoundData);
 }

@@ -11,7 +11,7 @@ const getProgression = (length, start, step) => {
   return progression;
 };
 
-export const gameData = () => {
+export const getRoundData = () => {
   const progressionLength = getRandomNumber(5, 10);
   const progressionStart = getRandomNumber(1, 10);
   const progressionStep = getRandomNumber(1, 5);
@@ -24,5 +24,5 @@ export const gameData = () => {
 };
 
 export default function startProgression() {
-  startGame(gameDescription, gameData);
+  startGame(gameDescription, getRoundData);
 }
