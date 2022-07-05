@@ -1,5 +1,5 @@
 import startGame from '../index.js';
-import randomGenerator from '../utilities.js';
+import getRandomNumber from '../getRandomNumber.js';
 
 export const gameDescription = 'What is the result of the expression?';
 
@@ -9,9 +9,9 @@ const multiplication = (firstNumber, secondNumber) => [firstNumber * secondNumbe
 const operations = [summation, subtraction, multiplication];
 
 export const gameData = () => {
-  const expression = operations[randomGenerator(0, operations.length - 1)];
-  const firstNumber = randomGenerator(1, 10);
-  const secondNumber = randomGenerator(1, 10);
+  const expression = operations[getRandomNumber(0, operations.length - 1)];
+  const firstNumber = getRandomNumber(1, 10);
+  const secondNumber = getRandomNumber(1, 10);
   const [correctAnswer, operationSymbol] = expression(firstNumber, secondNumber);
   const question = `${firstNumber} ${operationSymbol} ${secondNumber}`;
   return [question, correctAnswer.toString()];
